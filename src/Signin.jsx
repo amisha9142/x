@@ -13,7 +13,7 @@ function Signin() {
  
   return (
     <>
-     <div className='border border-black text-center m-auto rounded-l-2xl relative' 
+     <div className='border shadow-xl border-black text-center m-auto rounded-l-2xl relative' 
      style={{height:"350px" , width:"550px",marginTop:"60px",overflow:"auto"}}>
          <ion-icon name="logo-twitter" size="large" style={{marginTop:"20px",color:"blue"}}></ion-icon><br/>
          <h1 className='text-4xl font-bold'>Sign in to Twitter</h1><br/><br/>
@@ -70,7 +70,7 @@ function Signin() {
   }}
 />
 
-         <TextField
+    <TextField
       id="outlined-basic"
       label="Password"
       variant="outlined"

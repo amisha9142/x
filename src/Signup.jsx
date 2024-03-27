@@ -10,8 +10,8 @@ import IconButton from '@mui/material/IconButton';
 function Signup() {
   const[password,setPassword] = useState(false)
   return (
-    <>
-     <div className='border border-black text-center m-auto rounded-l-2xl relative' 
+    <div>
+     <div className='border shadow-xl border-black text-center m-auto rounded-l-2xl relative' 
      style={{height:"350px" , width:"550px",marginTop:"60px",overflow:"auto"}}>
          <h1 className='text-4xl font-bold mt-8'>Create Your Account</h1><br/><br/>
 
@@ -104,7 +104,7 @@ function Signup() {
 
 </div>
     
-    </>
+    </div>
   )
 }
 
